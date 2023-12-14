@@ -25,6 +25,11 @@ namespace SocketClient
         private string strReceiveMsg = "";
         delegate void textCallbak(String txt);
          TcpClientSocket clientSocket;
+        public int test = 0;
+
+        public int test234 = 0;
+
+
         public Form1()
         {
             InitializeComponent();
